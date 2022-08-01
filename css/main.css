@@ -1,7 +1,9 @@
+/* ---------- For devices wit 767px or less ---------- */
 body, html {
   text-align: center;
   font-family: Gotham, Helvetica, Arial, sans-serif;
   font-size: 1em;
+  text-decoration-color: #ff8641
 }
 
 section {
@@ -11,8 +13,38 @@ section {
 
 h1 {
   font-size: 2em;
+  text-decoration-color: #7b7d70
 }
 
 h2 {
   font-size: 1.5em;
+  text-decoration-color: #4eafb8
+}
+
+/* ---------- For devices with 768px or greater ---------- */
+
+@media (min-width: 768px){
+  body {
+    text-decoration-color: #7b8f8e;
+  }
+  h1 {
+    text-decoration-color: #fcc02a;
+  }
+  h2 {
+    text-decoration-color: #02cbd2
+  }
+}
+
+/* ---------- For devices with 1200px or greater ---------- */
+
+@media (min-width: 1200px) {
+  body {
+    text-decoration-color: #c19374
+  }
+  h1 {
+    text-decoration-color: #6e4b61
+  }
+  h2 {
+    text-decoration-color: #cabd61;
+  }
 }
